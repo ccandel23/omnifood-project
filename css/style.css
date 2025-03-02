@@ -1,0 +1,12 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+body {
+  /* Set text properties here, which are inherited */
+  font-family: sans-serif;
+  color: #444;
+  line-height: 1;
+}
