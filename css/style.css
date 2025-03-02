@@ -1,12 +1,54 @@
+/*
+
+--- 01 TYPOGRAPHY SYSTEM
+
+- FONT SIZE SYSTEM (px):
+10 / 12 / 14 / 16 / 18 / 20 / 24 / 30 / 36 / 44 / 52 / 62 / 74 / 86 / 98
+
+- FONT WEIGHTS:
+DEFAULT: 400
+
+- LINE HEIGHTS:
+DEFAULT : 1
+
+--- 02 COLORS
+
+- PRIMARY: #e67e22
+- TINTS:
+- SHADES:
+- ACCENTS:
+- GREYS: #555
+
+--- 05 SHADOWS
+
+--- 06 BORDER-RADIUS
+
+--- 07 WHITESPACE
+
+- SPACING SYSTEM (px):
+2 / 4 / 8 / 12 / 16 / 24 / 32 / 48 / 64 / 80 / 96 / 128
+
+*/
+
+/* GLOBAL RESETS */
 * {
   margin: 0;
   padding: 0;
   box-sizing: border-box;
 }
 
+html {
+    /* rem: root (html) element font size */
+    /* set it to 10px for easier calculations (default: 16px) */
+    /* best practive to set a percentage of user's browser font-size setting */
+    /* 62.5% of 16px is 10px */
+  font-size: 62.5%;
+}
+
 body {
   /* Set text properties here, which are inherited */
   font-family: sans-serif;
-  color: #444;
   line-height: 1;
+  font-weight: 400;
+  color: #555;
 }
