@@ -16,6 +16,7 @@ DEFAULT : 1
 SMALL: 1.05
 MEDIUM: 1.2
 PARAGRAPH: 1.6
+LARGE: 1.8
 
 -LETTER SPACING: -0.5px 0.75px
 
@@ -227,6 +228,7 @@ body {
     display: flex;
     align-items: center;
     gap: 1.6rem;
+    line-height: 1.2;
 }
 
 .list-icon {
