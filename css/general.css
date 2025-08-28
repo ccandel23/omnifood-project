@@ -55,6 +55,11 @@ html {
     /* 62.5% of 16px is 10px */
     font-size: 62.5%;
     overflow-x: hidden;
+    /* to make the scrolling animation smooth*/
+    /* not supported on IE and Opera (use javaScript instead) */
+    /*
+    scroll-behavior: smooth;
+    */
 }
 
 body {
